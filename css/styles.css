@@ -87,20 +87,24 @@ ul {
     font-size: 1.3rem;
     font-style: italic; }
 
-.gallery {
-  text-align: center; }
-  .gallery img {
-    margin-top: 12rem;
-    height: 150px;
-    width: 150px;
-    border-radius: 100px;
-    border: 3px solid #d9dbe0; }
-  .gallery img:hover {
-    height: 200px;
-    width: 200px; }
-  .gallery p {
-    margin-top: 1rem;
+.gallery-container {
+  margin-top: 15rem; }
+  .gallery-container .gallery-text {
+    margin-top: 18rem; }
+  .gallery-container .gallery {
     text-align: center; }
+    .gallery-container .gallery img {
+      margin-top: 1rem;
+      height: 150px;
+      width: 150px;
+      border-radius: 100px;
+      border: 3px solid #d9dbe0; }
+    .gallery-container .gallery img:hover {
+      height: 200px;
+      width: 200px; }
+    .gallery-container .gallery p {
+      margin-top: 1rem;
+      text-align: center; }
 
 .bottom {
   height: 30rem;
