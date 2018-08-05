@@ -112,7 +112,11 @@ ul {
 		margin-top:15rem;
 
 .gallery-text{
-	margin-top:18rem;
+	margin-top:0;
+	
+	p{
+	width:30vw;
+	}
 }
 .gallery{
 	
@@ -136,6 +140,18 @@ ul {
 		text-align:center;
 	}
 }
+}
+
+img#photo-with-text{
+	heigt:250px;
+	width:250px;
+	border-radius:100px;
+	border:3px solid $logoBlue;
+	float:left;
+	margin-right:80px;
+	margin-top:0;
+	shape-outside:circle();
+	
 }
 
 .bottom{
