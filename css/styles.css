@@ -90,7 +90,10 @@ ul {
 .gallery-container {
   margin-top: 15rem; }
   .gallery-container .gallery-text {
-    margin-top: 18rem; }
+    margin-top: 5rem; }
+    .gallery-container .gallery-text p {
+      color: red;
+      width: 30vw; }
   .gallery-container .gallery {
     text-align: center; }
     .gallery-container .gallery img {
