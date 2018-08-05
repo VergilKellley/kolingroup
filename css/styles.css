@@ -90,9 +90,8 @@ ul {
 .gallery-container {
   margin-top: 15rem; }
   .gallery-container .gallery-text {
-    margin-top: 5rem; }
+    margin-top: 0; }
     .gallery-container .gallery-text p {
-      color: red;
       width: 30vw; }
   .gallery-container .gallery {
     text-align: center; }
@@ -108,6 +107,17 @@ ul {
     .gallery-container .gallery p {
       margin-top: 1rem;
       text-align: center; }
+
+img#photo-with-text {
+  heigt: 250px;
+  width: 250px;
+  border-radius: 100px;
+  border: 3px solid #367588;
+  float: left;
+  margin-right: 80px;
+  margin-top: 0;
+  -webkit-shape-outside: circle();
+  shape-outside: circle(); }
 
 .bottom {
   height: 30rem;
