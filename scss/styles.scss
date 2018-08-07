@@ -109,24 +109,19 @@ ul {
 
 
 .gallery-container{
-		margin-top:15rem;
-
-.gallery-text{
-	margin-top:0;
-	
-	p{
-	width:30vw;
-	}
-}
+		position:relative;
+		margin-top:5rem;
+		
 .gallery{
 	
-	text-align:center;
+	//text-align:center;
 
  img{
+
 	margin-top:1rem;
-	height:150px;
-	width:150px;
-	border-radius:100px;
+	height:250px;
+	width:250px;
+	border-radius:10px;
 	border: 3px solid $logoGrey;
 }
 
@@ -142,21 +137,31 @@ ul {
 }
 }
 
-img#photo-with-text{
-	heigt:250px;
-	width:250px;
-	border-radius:100px;
-	border:3px solid $logoBlue;
-	float:left;
-	margin-right:80px;
-	margin-top:0;
-	shape-outside:circle();
-	
-}
-
 .bottom{
 	height:30rem;
 	width:100vw;
 	background-color:$logoBlue;
 	margin-top:5rem;
+}
+
+footer{
+	position:relative;
+	background:#000;
+	text-align:center;
+	width:100vw;
+	padding:20px;
+}
+
+footer p{
+	color:#fff;
+	font-size:1.5rem;
+
+	a{
+		color:#fff;
+	}
+
+	a:hover{
+		text-decoration:none;
+		color:lightblue;
+	}
 }
